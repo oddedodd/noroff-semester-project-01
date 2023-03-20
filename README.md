@@ -1,2 +1,3 @@
 # noroff-semester-project-01
-NOROFF Semester Project 1
+##Community Science Museum
+###“Explore together”
