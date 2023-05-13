@@ -30,6 +30,10 @@ p {
     margin: 20px 0;
 }
 
+td {
+    padding: 5px;
+}
+
 .container {
     max-width: 1224px;
     margin: auto;
@@ -118,7 +122,9 @@ p {
 */
 
 .mainpage-section,
-.explore-section {
+.explore-section,
+.spaces-section,
+.visit-us-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,6 +199,40 @@ section {
 .getinvolved-section img {
     max-width: 100%;
     margin-bottom: 20px;
+}
+
+/*
+* EXHIBITION SPACES
+*/
+#spaces .hero {
+    background-image: url('../images/spaces_front01.jpg');
+    height: 50vh;
+}
+
+.spaces-section img {
+    max-width: 100%;
+}
+
+/*
+* VISIT US
+*/
+#visit-us .hero {
+    background-image: url('../images/visit_main-01.jpg');
+    height: 50vh;
+    background-position: 50% 50%;
+}
+
+#visit-us table {
+    margin: 0 auto;
+}
+
+.visit-us-location {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.visit-us-section img {
+    max-width: 100%;
 }
 
 
@@ -293,22 +333,30 @@ li {
         max-width: 960px;
     } 
 
-    .explore-section {
+    .explore-section,
+    .spaces-section,
+    .visit-us-section {
         flex-direction: row;
         text-align: left;
         gap: 50px;
     }
 
-    .explore-section > .text-column { 
+    .explore-section > .text-column,
+    .spaces-section > .text-column { 
         flex: 1;
     }
 
-    .explore-section  img { 
+    .explore-section  img,
+    .spaces-section img { 
         max-height: 500px; 
     }
 
     .reverse {
         flex-direction: row-reverse;
+    }
+
+    #visit-us table {
+        margin: 0 0;
     }
 
 }
@@ -342,7 +390,6 @@ li {
         position: fixed;
         top: 75px;
         left:-100%;
-        height: 100vh;
         gap: 0;
         flex-direction: column;
         background-color: #fff;
