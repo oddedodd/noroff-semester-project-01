@@ -414,7 +414,7 @@ li {
         top: 75px;
         left:-100%;
         flex-direction: column;
-        background-color: #E9F1FA;
+        background-color: #fff;
         width: 100%;
         text-align: center;
         transition: 0.3s;
