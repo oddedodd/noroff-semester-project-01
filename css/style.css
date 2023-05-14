@@ -55,7 +55,7 @@ td {
 .hero {
     display: flex;
     justify-content: center;
-    height: 65vh;
+    height: 85vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ td {
 
 .hero-title h1,
 .hero-title p {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.7);
     padding: 10px 20px;
 }
 
@@ -114,7 +114,8 @@ td {
 
 /* MAIN PAGE */
 #mainpage .hero {
-    background-image: url('../images/museum_main-01.jpg');
+    background-image: url('../images/museum_main-01.jpg'); 
+    background-position: 50% 50%;
 }
 
 /*
@@ -233,6 +234,22 @@ section {
 
 .visit-us-section img {
     max-width: 100%;
+}
+
+.slide-container {
+    display: flex;
+    gap: 15px;
+    padding: 15px 15px;
+    justify-content: center;
+}
+
+.slide-container img {
+    max-width: 100%;
+}
+
+.visit-us-container {
+    padding: 30px 0;
+    text-align: center;
 }
 
 
@@ -359,6 +376,11 @@ li {
         margin: 0 0;
     }
 
+    .visit-us-container {
+        text-align: left;
+        max-width: 720px;
+    }
+
 }
 
 /*
@@ -388,18 +410,20 @@ li {
 
     .nav-menu {
         position: fixed;
+        display: flex;
         top: 75px;
         left:-100%;
-        gap: 0;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        height: 60vh;
+        justify-content: center;
     }
 
-    .nav-item {
-        margin: 16px 0;
+    .menu-item {
+        display: flex;
     }
 
     .nav-menu.active {
