@@ -37,8 +37,6 @@ git clone https://github.com/oddedodd/noroff-semester-project-01
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
 If you’d like to help improve this project, please fork the repository and submit a pull request.
 
 1.	Fork the project.
